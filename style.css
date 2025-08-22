@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%; /* Converted from max-width: 1200px (assuming a typical viewport width) */
+  max-width: 1200px;
+  background-color: white;
+  padding: 1.66%; /* Converted from 20px, assuming a 1200px parent width (20/1200 * 100) */
+  box-shadow: 0 0 0.83% rgba(0, 0, 0, 0.1); /* Converted from 10px */
+  border-radius: 0.66%; /* Converted from 8px */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.83%; /* Converted from 10px */
+  margin-bottom: 1.66%; /* Converted from 20px */
+}
+
+.header h1 {
+  font-size: 2vw; /* Converted from 24px, using viewport width for scalability */
+  margin: 0;
+  font-weight: bold;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar li a {
+  display: block;
+  padding: 1.25%; /* Converted from 15px */
+  text-decoration: none;
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  gap: 3.33%; /* Converted from 40px */
+}
+
+.text-section {
+  flex: 2;
+}
+
+.text-section h2 {
+  font-size: 1.25vw; /* Converted from 15px */
+  margin-top: 0;
+}
+
+.text-section h3 {
+  font-size: 1.25vw; /* Converted from 15px */
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.text-section .title {
+  font-size: 1.5vw; /* Converted from 18px */
+  font-weight: bold;
+  margin-bottom: 0.83%; /* Converted from 10px */
+}
+
+.text-section .title .divider {
+  color: #ccc;
+  font-weight: normal;
+  margin: 0 0.41%; /* Converted from 5px */
+}
+
+.text-section p {
+  line-height: 1.6;
+  margin-bottom: 1.25%; /* Converted from 15px */
+}
+
+.contact-button {
+  text-align: center;
+  margin-top: 1.66%; /* Converted from 20px */
+}
+
+.contact-button button {
+  background-color: #f32f2f;
+  color: white;
+  border: none;
+  padding: 1.25% 3.33%; /* Converted from 15px 40px */
+  font-size: 1.33vw; /* Converted from 16px */
+  cursor: pointer;
+  border-radius: 0.41%; /* Converted from 5px */
+  transition: background-color 0.3s;
+}
+
+.contact-button button:hover {
+  background-color: #555;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+}
+
+.image-section img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 20%;
+}
